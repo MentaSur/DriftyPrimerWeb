@@ -168,16 +168,16 @@ export default function Home() {
           <div className="flex flex-col items-center mt-24 pt-12 border-t border-zinc-800/50 w-full">
             <h3 className="text-2xl font-bold text-white mb-8 drop-shadow-sm">Mis Redes Sociales</h3>
             <div className="flex gap-8 sm:gap-12 items-center">
-              <a href="#" title="YouTube" className="relative w-12 h-12 sm:w-16 sm:h-16 grayscale opacity-50 hover:grayscale-0 hover:opacity-100 hover:scale-110 hover:drop-shadow-[0_0_20px_rgba(255,0,0,0.6)] transition-all duration-300">
+              <a href="https://www.youtube.com/@DriftySinVR" target="_blank" rel="noopener noreferrer" title="YouTube" className="relative w-12 h-12 sm:w-16 sm:h-16 grayscale opacity-50 hover:grayscale-0 hover:opacity-100 hover:scale-110 hover:drop-shadow-[0_0_20px_rgba(255,0,0,0.6)] transition-all duration-300">
                 <Image src="/Youtube_logo.png" alt="YouTube" fill className="object-contain" />
               </a>
-              <a href="#" title="X" className="relative w-10 h-10 sm:w-14 sm:h-14 grayscale opacity-50 hover:grayscale-0 hover:opacity-100 hover:scale-110 hover:drop-shadow-[0_0_20px_rgba(255,255,255,0.6)] transition-all duration-300">
+              <a href="https://x.com/DriftySinVR" target="_blank" rel="noopener noreferrer" title="X" className="relative w-10 h-10 sm:w-14 sm:h-14 grayscale opacity-50 hover:grayscale-0 hover:opacity-100 hover:scale-110 hover:drop-shadow-[0_0_20px_rgba(255,255,255,0.6)] transition-all duration-300">
                 <Image src="/X_icon.png?v=2" alt="X" fill className="object-contain" unoptimized />
               </a>
-              <a href="#" title="Instagram" className="relative w-10 h-10 sm:w-14 sm:h-14 grayscale opacity-50 hover:grayscale-0 hover:opacity-100 hover:scale-110 hover:drop-shadow-[0_0_20px_rgba(225,48,108,0.6)] transition-all duration-300">
+              <a href="https://www.instagram.com/driftysinvr/" target="_blank" rel="noopener noreferrer" title="Instagram" className="relative w-10 h-10 sm:w-14 sm:h-14 grayscale opacity-50 hover:grayscale-0 hover:opacity-100 hover:scale-110 hover:drop-shadow-[0_0_20px_rgba(225,48,108,0.6)] transition-all duration-300">
                 <Image src="/Instagram_logo_2022.webp" alt="Instagram" fill className="object-contain" />
               </a>
-              <a href="#" title="Discord" className="relative w-12 h-12 sm:w-16 sm:h-16 grayscale opacity-50 hover:grayscale-0 hover:opacity-100 hover:scale-110 hover:drop-shadow-[0_0_20px_rgba(88,101,242,0.6)] transition-all duration-300">
+              <a href="https://discord.com/invite/gYugfDc5ut" target="_blank" rel="noopener noreferrer" title="Discord" className="relative w-12 h-12 sm:w-16 sm:h-16 grayscale opacity-50 hover:grayscale-0 hover:opacity-100 hover:scale-110 hover:drop-shadow-[0_0_20px_rgba(88,101,242,0.6)] transition-all duration-300">
                 <Image src="/discord.png?v=2" alt="Discord" fill className="object-contain" unoptimized />
               </a>
             </div>
