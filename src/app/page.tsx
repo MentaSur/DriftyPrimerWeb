@@ -15,7 +15,7 @@ export default function Home() {
             priority
           />
           <span className="text-xl sm:text-3xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-blue-400 to-white drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
-            DriftySinVR
+            Búnker Virtigital
           </span>
         </div>
 
