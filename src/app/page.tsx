@@ -32,8 +32,8 @@ export default function Home() {
         {/* Degradado para transición suave al color de abajo */}
         <div className="absolute inset-x-0 bottom-0 h-48 bg-gradient-to-t from-[#080b12] to-transparent pointer-events-none z-0"></div>
 
-        <main className="relative z-10 flex w-full flex-col items-center justify-center px-4 sm:px-6 text-center pt-40 pb-16">
-          <div className="flex flex-col items-center justify-center gap-6 sm:gap-8 max-w-4xl p-4 sm:p-12">
+        <main className="relative z-10 flex w-full flex-col items-center justify-center px-4 sm:px-6 text-center pt-24 pb-16">
+          <div className="flex flex-col items-center justify-center gap-6 sm:gap-8 max-w-4xl p-4 sm:p-8">
             <img
               src="/Logo_DriftySinVR_v4-1.png"
               alt="Logo DriftySinVR"

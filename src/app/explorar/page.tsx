@@ -41,7 +41,7 @@ export default function Explorar() {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-8">
               {/* Card 1 */}
               <a href="/#inicio" className="flex flex-col items-center justify-center border border-zinc-800 rounded-2xl p-6 transition-all hover:scale-[1.02] hover:border-zinc-600 cursor-pointer shadow-lg group h-80 relative overflow-hidden">
-                <img src="/Narices.jpg" alt="Quién narices" className="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-70 transition-all duration-500 z-0 group-hover:scale-110" />
+                <img src="/narices.jpg" alt="Quién narices" className="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-70 transition-all duration-500 z-0 group-hover:scale-110" />
                 <div className="absolute inset-0 bg-black/40 group-hover:bg-black/10 transition-colors duration-500 z-10 pointer-events-none"></div>
                 <div className="absolute inset-0 bg-gradient-to-t from-[#080b12] via-transparent to-transparent z-10 pointer-events-none"></div>
                 
@@ -53,7 +53,7 @@ export default function Explorar() {
 
               {/* Card 2 */}
               <div className="flex flex-col items-center justify-center border border-zinc-800 rounded-2xl p-6 transition-all hover:scale-[1.02] hover:border-zinc-600 cursor-pointer shadow-lg group h-80 relative overflow-hidden">
-                <img src="/proxi%201.png" alt="Próximamente 1" className="absolute inset-0 w-full h-full object-cover opacity-30 group-hover:opacity-60 transition-all duration-500 z-0 group-hover:scale-110 grayscale group-hover:grayscale-0" />
+                <img src="/proxi_1.png" alt="Próximamente 1" className="absolute inset-0 w-full h-full object-cover opacity-30 group-hover:opacity-60 transition-all duration-500 z-0 group-hover:scale-110 grayscale group-hover:grayscale-0" />
                 <div className="absolute inset-0 bg-black/50 group-hover:bg-black/20 transition-colors duration-500 z-10 pointer-events-none"></div>
                 <div className="absolute inset-0 bg-gradient-to-t from-[#080b12] via-transparent to-transparent z-10 pointer-events-none"></div>
 
@@ -65,7 +65,7 @@ export default function Explorar() {
 
               {/* Card 3 */}
               <div className="flex flex-col items-center justify-center border border-zinc-800 rounded-2xl p-6 transition-all hover:scale-[1.02] hover:border-zinc-600 cursor-pointer shadow-lg group h-80 relative overflow-hidden">
-                <img src="/proxi%202.png" alt="Próximamente 2" className="absolute inset-0 w-full h-full object-cover opacity-30 group-hover:opacity-60 transition-all duration-500 z-0 group-hover:scale-110 grayscale group-hover:grayscale-0" />
+                <img src="/proxi_2.png" alt="Próximamente 2" className="absolute inset-0 w-full h-full object-cover opacity-30 group-hover:opacity-60 transition-all duration-500 z-0 group-hover:scale-110 grayscale group-hover:grayscale-0" />
                 <div className="absolute inset-0 bg-black/50 group-hover:bg-black/20 transition-colors duration-500 z-10 pointer-events-none"></div>
                 <div className="absolute inset-0 bg-gradient-to-t from-[#080b12] via-transparent to-transparent z-10 pointer-events-none"></div>
 
