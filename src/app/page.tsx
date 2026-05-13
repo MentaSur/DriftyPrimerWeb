@@ -21,7 +21,7 @@ export default function Home() {
 
         <nav className="flex items-center gap-4 sm:gap-8 text-xs sm:text-sm font-semibold tracking-wide text-zinc-300">
           <a href="#inicio" className="hover:text-white hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all">INICIO</a>
-          <a href="#explorar" className="hover:text-white hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all">EXPLORAR</a>
+          <a href="/explorar" className="hover:text-white hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all">EXPLORAR</a>
           <a href="#novedades" className="hover:text-white hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all">NOVEDADES</a>
         </nav>
       </header>
@@ -34,13 +34,10 @@ export default function Home() {
 
         <main className="relative z-10 flex w-full flex-col items-center justify-center px-4 sm:px-6 text-center pt-40 pb-16">
           <div className="flex flex-col items-center justify-center gap-6 sm:gap-8 max-w-4xl p-4 sm:p-12">
-            <Image
+            <img
               src="/Logo_DriftySinVR_v4-1.png"
               alt="Logo DriftySinVR"
-              width={350}
-              height={350}
               className="object-contain drop-shadow-[0_0_20px_rgba(255,255,255,0.15)] mb-2 hover:scale-105 transition-transform duration-700 w-56 h-56 sm:w-72 sm:h-72 lg:w-[350px] lg:h-[350px]"
-              priority
             />
             <h1 className="text-4xl sm:text-6xl md:text-7xl font-black tracking-tight text-white drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)] leading-tight">
               Un Andaluz sin más
@@ -66,35 +63,6 @@ export default function Home() {
       {/* Sección inferior con color sólido que continúa el fondo */}
       <section className="relative z-10 w-full min-h-screen bg-[#080b12] flex flex-col items-center py-20 px-6">
         <div className="max-w-5xl w-full flex flex-col gap-24">
-
-          {/* Sección Explorar */}
-          <div id="explorar" className="flex flex-col gap-10 scroll-mt-28">
-            <div className="text-center">
-              <h2 className="text-4xl sm:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500 drop-shadow-md">
-                Explorar
-              </h2>
-              <p className="text-lg text-zinc-400 max-w-2xl mx-auto mt-4">
-                El Hub central para navegar por el Búnker
-              </p>
-            </div>
-            
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-4">
-              <a href="#inicio" className="flex flex-col items-center justify-center bg-zinc-900/50 border border-zinc-800 rounded-2xl p-6 hover:bg-zinc-800/80 transition-all hover:scale-[1.02] cursor-pointer shadow-lg group h-80 relative">
-                <span className="text-6xl mb-6 group-hover:scale-110 transition-transform drop-shadow-md">🧐</span>
-                <h3 className="text-2xl font-bold text-zinc-100 text-center mb-2 group-hover:text-green-400 transition-colors">¿Quién narices es DriftySinVR?</h3>
-              </a>
-
-              <div className="flex flex-col items-center justify-center bg-zinc-900/50 border border-zinc-800 rounded-2xl p-6 hover:bg-zinc-800/80 transition-all hover:scale-[1.02] cursor-pointer shadow-lg group h-80 relative">
-                <span className="text-6xl mb-6 group-hover:scale-110 transition-transform drop-shadow-md opacity-50 group-hover:opacity-100">🚧</span>
-                <h3 className="text-2xl font-bold text-zinc-500 text-center mb-2 group-hover:text-blue-400 transition-colors">Próximamente</h3>
-              </div>
-
-              <div className="flex flex-col items-center justify-center bg-zinc-900/50 border border-zinc-800 rounded-2xl p-6 hover:bg-zinc-800/80 transition-all hover:scale-[1.02] cursor-pointer shadow-lg group h-80 relative">
-                <span className="text-6xl mb-6 group-hover:scale-110 transition-transform drop-shadow-md opacity-50 group-hover:opacity-100">🚧</span>
-                <h3 className="text-2xl font-bold text-zinc-500 text-center mb-2 group-hover:text-blue-400 transition-colors">Próximamente</h3>
-              </div>
-            </div>
-          </div>
 
           {/* Sección ¿Quién Soy? */}
           <div className="flex flex-col gap-10">
