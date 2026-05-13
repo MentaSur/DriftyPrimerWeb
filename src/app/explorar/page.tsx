@@ -22,7 +22,7 @@ export default function Explorar() {
         <nav className="flex items-center gap-4 sm:gap-8 text-xs sm:text-sm font-semibold tracking-wide text-zinc-300">
           <a href="/#inicio" className="hover:text-white hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all">INICIO</a>
           <a href="/explorar" className="hover:text-white hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all">HUB</a>
-          <a href="/#novedades" className="hover:text-white hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all">NOVEDADES</a>
+          <a href="/driftysinvr#novedades" className="hover:text-white hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all">NOVEDADES</a>
         </nav>
       </header>
 
@@ -40,7 +40,7 @@ export default function Explorar() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-8">
               {/* Card 1 */}
-              <a href="/#inicio" className="flex flex-col items-center justify-center border border-zinc-800 rounded-2xl p-6 transition-all hover:scale-[1.02] hover:border-zinc-600 cursor-pointer shadow-lg group h-80 relative overflow-hidden">
+              <a href="/driftysinvr" className="flex flex-col items-center justify-center border border-zinc-800 rounded-2xl p-6 transition-all hover:scale-[1.02] hover:border-zinc-600 cursor-pointer shadow-lg group h-80 relative overflow-hidden">
                 <img src="/narices.jpg" alt="Quién narices" className="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-70 transition-all duration-500 z-0 group-hover:scale-110" />
                 <div className="absolute inset-0 bg-black/40 group-hover:bg-black/10 transition-colors duration-500 z-10 pointer-events-none"></div>
                 <div className="absolute inset-0 bg-gradient-to-t from-[#080b12] via-transparent to-transparent z-10 pointer-events-none"></div>
