@@ -21,7 +21,7 @@ export default function Explorar() {
 
         <nav className="flex items-center gap-4 sm:gap-8 text-xs sm:text-sm font-semibold tracking-wide text-zinc-300">
           <a href="/#inicio" className="hover:text-white hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all">INICIO</a>
-          <a href="/explorar" className="hover:text-white hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all">EXPLORAR</a>
+          <a href="/explorar" className="hover:text-white hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all">HUB</a>
           <a href="/#novedades" className="hover:text-white hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all">NOVEDADES</a>
         </nav>
       </header>
@@ -31,7 +31,7 @@ export default function Explorar() {
           <div className="flex flex-col gap-10">
             <div className="text-center">
               <h1 className="text-4xl sm:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500 drop-shadow-md">
-                Explorar
+                HUB
               </h1>
               <p className="text-lg text-zinc-400 max-w-2xl mx-auto mt-4">
                 El Hub central para navegar por el Búnker
@@ -46,7 +46,6 @@ export default function Explorar() {
                 <div className="absolute inset-0 bg-gradient-to-t from-[#080b12] via-transparent to-transparent z-10 pointer-events-none"></div>
                 
                 <div className="relative z-20 flex flex-col items-center w-full mt-auto mb-4">
-                  <span className="text-5xl mb-4 group-hover:scale-110 transition-transform drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)]">🧐</span>
                   <h3 className="text-2xl font-bold text-zinc-100 text-center group-hover:text-green-400 transition-colors drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">¿Quién narices es DriftySinVR?</h3>
                 </div>
               </a>
@@ -58,7 +57,6 @@ export default function Explorar() {
                 <div className="absolute inset-0 bg-gradient-to-t from-[#080b12] via-transparent to-transparent z-10 pointer-events-none"></div>
 
                 <div className="relative z-20 flex flex-col items-center w-full mt-auto mb-4">
-                  <span className="text-5xl mb-4 group-hover:scale-110 transition-transform drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)] opacity-70 group-hover:opacity-100">🚧</span>
                   <h3 className="text-2xl font-bold text-zinc-300 text-center group-hover:text-blue-400 transition-colors drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">Próximamente</h3>
                 </div>
               </div>
@@ -70,7 +68,6 @@ export default function Explorar() {
                 <div className="absolute inset-0 bg-gradient-to-t from-[#080b12] via-transparent to-transparent z-10 pointer-events-none"></div>
 
                 <div className="relative z-20 flex flex-col items-center w-full mt-auto mb-4">
-                  <span className="text-5xl mb-4 group-hover:scale-110 transition-transform drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)] opacity-70 group-hover:opacity-100">🚧</span>
                   <h3 className="text-2xl font-bold text-zinc-300 text-center group-hover:text-blue-400 transition-colors drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">Próximamente</h3>
                 </div>
               </div>
